@@ -6,7 +6,8 @@ const Phone = () => {
     console.log(phone)
     return (
         <div>
-            <p>phone</p>
+            <p>{phone.name}</p>
+            <img src={phone.image} alt="" />
         </div>
     );
 };
